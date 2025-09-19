@@ -1,0 +1,61 @@
+.panel-1{
+  background-color: #37475a;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  font-size: 0.85rem;
+  transition: 0.1s;
+}
+.panel-1:hover{
+  cursor: pointer;
+  background-color: #485769;
+}
+
+.panel-2{
+  background-color: #222f3d;
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  height: 300px;
+}
+
+ul{
+  margin-top: 20px;
+}
+
+ul p{
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+ul a{
+  display: block;
+  font-size: 1rem;
+  color: #dddddd;
+  margin-top: 10px;
+  text-decoration: none;
+}
+
+ul a:hover{
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.panel-3{
+  background-color: #222f3d;
+  color: white;
+  border-top: 0.5px solid grey;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo{
+  background-image: url(amazon_logo.png);
+  height: 50px;
+  width: 100px;
+  background-size: cover;
+}
